@@ -25,8 +25,9 @@ const Button = styled.button`
   width: 149px;
   margin-bottom: 20px;
   border-radius: 50px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #ff0000;
+  // background-color: #737677;
+  border: 2px solid #ff0000;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
@@ -36,14 +37,16 @@ const PromptText = styled.p`
   letter-spacing: 2px;
   font-size: 15px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
+  // color: #ffffff;
   
 `;
 
 const LogInLink = styled(Link)`
-  color: #ffffff;
+  // color: #ffffff;
+  color: #000000;
   text-decoration: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
   font-weight: 500;
 `;
 

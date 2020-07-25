@@ -50,8 +50,8 @@ const Button = styled.button`
   width: 286px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   font-family: Lato;
   font-size: 18px;

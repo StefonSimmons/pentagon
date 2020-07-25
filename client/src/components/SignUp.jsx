@@ -5,10 +5,11 @@ const SignUpTitles = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px
 `
 const SignUpTitle = styled.h1`
   font-size: 35px;
-  color: #FFFFFF;
+  color: #000000;
   font-family: Lato;
   font-weight: 500;
   line-height: 42px;
@@ -16,7 +17,7 @@ const SignUpTitle = styled.h1`
 `
 const HeaderTwo = styled.h2`
   font-size: 15px;
-  color: #FFFFFF;
+  color: #000000;
   font-family: Lato;
   font-weight: 500;
   line-height: 42px;
@@ -40,10 +41,10 @@ const Or = styled.p`
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  color: #ffffff;
+  color: #000000;
 `
 const Divider = styled.hr`
-  border: 1px solid #FFFFFF;
+  border: 1px solid #000000;
   width: 80%;
   margin: 40px auto 0 auto
 `
@@ -59,28 +60,28 @@ const Form = styled.form`
 const Input = styled.input`
   margin: 5px;
   border-radius: 14px;
-  border: 2px solid #FFFFFF;
   height: 55px;
-  background: rgb(190,197,200);
+  background-color: #edf3f5;
+  border: 2px solid #edf3f5;
   text-align: center;
   font-family: Lato;
   font-style: italic;
   font-weight: 500;
   font-size: 15px;
-  color: #ffffff;
+  // color: #ffffff;
   letter-spacing: 2px;
 
   &::placeholder{
-    color: #ffffff
+    // color: #ffffff
   }
 `
 const Button = styled.button`
   height: 55px;
   width: 149px;
-  margin-top: 30px;
+  margin-top: 50px;
   border-radius: 50px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
@@ -118,19 +119,21 @@ class SignUp extends Component {
 
         <SocialContainer>
           <SocialIcons>
-            <svg width="28" height="29" viewBox="0 0 17 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.33971 34V18.0462H0V12.3021H4.33971V7.39585C4.33971 3.54049 6.90319 0 12.81 0C15.2016 0 16.97 0.22287 16.97 0.22287L16.8307 5.58691C16.8307 5.58691 15.0271 5.56985 13.059 5.56985C10.9289 5.56985 10.5877 6.52406 10.5877 8.10781V12.3021H17L16.721 18.0462H10.5877V34H4.33971Z" fill="white" />
+            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="57" height="57" rx="16" stroke="black" stroke-width="2" />
+              <path d="M25.3397 47V31.0462H21V25.3021H25.3397V20.3959C25.3397 16.5405 27.9032 13 33.81 13C36.2016 13 37.97 13.2229 37.97 13.2229L37.8307 18.5869C37.8307 18.5869 36.0271 18.5698 34.059 18.5698C31.9289 18.5698 31.5877 19.5241 31.5877 21.1078V25.3021H38L37.721 31.0462H31.5877V47H25.3397Z" fill="black" />
             </svg>
           </SocialIcons>
           <Or>OR</Or>
           <SocialIcons>
-            <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M27.465 11.7812H14.0892V17.2188H21.9363C21.2229 21.025 17.8344 23.5625 14.0892 23.3812C9.45223 23.2 5.88535 19.575 5.70701 14.8625C5.52866 9.96875 9.27389 5.8 14.0892 5.61875C16.051 5.61875 18.0127 6.34375 19.6178 7.79375L23.7197 3.80625C21.2229 1.26875 17.6561 0 14.2675 0C6.42038 0 0 6.525 0 14.5C0 22.475 6.42038 29 14.2675 29C22.4713 29 28 23.2 28 14.8625C27.8217 13.775 27.8217 12.8687 27.465 11.7812Z" fill="white" />
+            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="57" height="57" rx="16" stroke="black" stroke-width="2" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M43.465 27.7812H30.0892V33.2188H37.9363C37.2229 37.025 33.8344 39.5625 30.0892 39.3812C25.4522 39.2 21.8854 35.575 21.707 30.8625C21.5287 25.9688 25.2739 21.8 30.0892 21.6187C32.051 21.6187 34.0127 22.3438 35.6178 23.7938L39.7197 19.8062C37.2229 17.2687 33.6561 16 30.2675 16C22.4204 16 16 22.525 16 30.5C16 38.475 22.4204 45 30.2675 45C38.4713 45 44 39.2 44 30.8625C43.8217 29.775 43.8217 28.8687 43.465 27.7812Z" fill="black" />
             </svg>
           </SocialIcons>
 
         </SocialContainer>
-        <Divider/>
+        <Divider />
         <FormContainer>
           <HeaderTwo>SIGN UP WITH YOUR EMAIL</HeaderTwo>
           <Form onSubmit={(e) => {

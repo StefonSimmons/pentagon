@@ -62,7 +62,7 @@ const ForgotPasswordLink = styled(Link)`
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.1em;
-  color: #6d6d6d;
+  color: #000000;
 `;
 
 const LogInButton = styled.button`
@@ -70,8 +70,8 @@ const LogInButton = styled.button`
   width: 149px;
   margin-top: 30px;
   border-radius: 50px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;

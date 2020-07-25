@@ -11,7 +11,7 @@ const ImageContainer = styled.div`
 const ProfileImg = styled.img`
   width: 119px;
   border-radius: 90px;
-  border: 8px solid #ffffff
+  border: 8px solid #000000
 `
 const Form = styled.form`
   display: flex;
@@ -20,10 +20,10 @@ const Form = styled.form`
 `
 const ImgInput = styled.input`
   margin-top: 10px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #000000;
   border-radius: 14px;
   height: 30px;
-  background: rgb(190,197,200);
+  background: #000000;
   text-align: center;
   font-family: Lato;
   font-style: italic;
@@ -41,8 +41,8 @@ const Button = styled.button`
   width: 100px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   font-family: Lato;
   font-size: 15px;

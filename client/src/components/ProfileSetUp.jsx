@@ -38,8 +38,8 @@ const Button = styled.button`
   width: 100px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   font-family: Lato;
   font-size: 15px;
@@ -51,8 +51,8 @@ const BigButton = styled.button`
   width: 149px;
   margin-top: 30px;
   border-radius: 50px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;

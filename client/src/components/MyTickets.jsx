@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Header = styled.header`
   height: 91px;
-  background: #808080;
+  background: #000000;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -23,8 +23,8 @@ const HeaderTwo = styled.header`
 const GreyBox = styled.div`
   height: 33px;
   width: 325px;
-  background: #D1D9DD;
-  border: 2px solid #D1D9DD;
+  background: #000000;
+  border: 2px solid #000000;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -33,14 +33,14 @@ const WhiteOption = styled.button`
   height: 33px;
   width: 159px;
   background: #FFFFFF;
-  border: 2px solid #D1D9DD;
+  border: 2px solid #FFFFFF;
   box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   font-family: Lato;
   font-weight: 900;
   font-size: 12px;
   letter-spacing: 2px;
-  color: #6D6D6D;
+  color: #000000;
 `
 const GreyOption = styled.p`
   font-family: Lato;
@@ -82,7 +82,7 @@ const EventName = styled.h1`
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 2px;
-  color: #6D6D6D;
+  color: #000000;
   text-transform: uppercase
 `
 const Date = styled.h2`
@@ -91,7 +91,7 @@ const Date = styled.h2`
   font-weight: 500;
   font-size: 12px; 
   letter-spacing: 2px;
-  color: #6D6D6D;
+  color: #000000;
 `
 const Location = styled(Date)`
 `
@@ -99,8 +99,8 @@ const Button = styled.button`
   height: 30px;
   width: 78px;
   border-radius: 10px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   font-family: Lato;
   font-size: 12px;
@@ -112,7 +112,7 @@ const ButtonLink = styled(Link)`
   margin: 10px 30px;
 `
 const Divider = styled.hr`
-  border: 1px solid #D1D9DD;
+  border: 1px solid #000000;
   width: 80%;
   margin: 5px auto
 `
@@ -122,7 +122,7 @@ const Foot = styled.footer`
   width: 100vw;
   position: fixed;
   bottom: 0;
-  background: rgb(150,150,150)
+  background: #000000
 `
 const Bottom = styled.div`
   display: flex;

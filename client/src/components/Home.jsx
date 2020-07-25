@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const HomeHolder = styled.div`
-  color: white;
   height: 100%;
   width: 100%;
 `;
@@ -12,6 +11,7 @@ const FeaturedTextHolder = styled.div`
   width: 100%;
   margin-left: 10px;
   margin-top: 20px;
+  color: white;
 `;
 
 const FeaturedImage = styled.img`
@@ -190,7 +190,7 @@ const Foot = styled.footer`
   width: 100vw;
   position: fixed;
   bottom: 0%;
-  background: rgb(150,150,150)
+  background: #000000
 `
 const Bottom = styled.div`
   display: flex;

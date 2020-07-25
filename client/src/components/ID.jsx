@@ -34,7 +34,7 @@ const TabBox = styled.div`
   margin: 20px auto
 `
 const Welcome = styled.h1`
-  color: #6D6D6D;
+  color: #000000;
   font-family: Lato;
   font-weight: 900;
   font-size: 20px;
@@ -48,7 +48,7 @@ const Paragraph = styled.p`
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 2px;
-  color: #6D6D6D;
+  color: #000000;
   text-align: center;
   width: 90%
 `
@@ -57,8 +57,8 @@ const BigButton = styled.button`
   width: 301px;
   margin-top: 30px;
   border-radius: 50px;
-  background-color: #737677;
-  border: 1px solid #737677;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
   color: #ffffff;
   letter-spacing: 2px;
   font-family: Lato;
