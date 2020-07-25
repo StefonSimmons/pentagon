@@ -134,11 +134,12 @@ const Bottom = styled.div`
 export default function MyTickets({ allTickets, currentUser }) {
 
 
-  const tickets = allTickets.map((t, id) => {
+  const tickets = allTickets.map((t, idx) => {
     if (t.id === currentUser.id) {
       return (
         <>
-          <Ticket key={id}>
+          {console.log(t, '<->', t.ticket_id)}
+          <Ticket key={idx}>
             <Image src={t.img_url} alt={t.event_name} />
             <Info>
               <EventName>{t.event_name}</EventName>

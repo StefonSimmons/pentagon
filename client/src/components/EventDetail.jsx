@@ -170,6 +170,7 @@ export default class EventDetail extends Component {
                 <Button onClick={() => {
                   createTicket(ticketData);
                   this.props.history.push('/mytickets')
+                  window.location.reload()
                 }}>
                   Buy Now
                 </Button>
